@@ -1,0 +1,148 @@
+.container-sm {
+  max-width: 700px;
+  margin: 44px 0 0 0;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  box-sizing: border-box;
+  border: 2px solid#ffff91;
+  border-radius: 20px;
+}
+.searcher {
+  display: flex;
+  margin: 25px 24px;
+}
+section {
+  margin: 0 30px;
+}
+
+.local-weather {
+  width: 100px;
+  min-height: 60px;
+  padding: 10px 10px 10px 322px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.local-weather:hover {
+  cursor: pointer;
+}
+
+.ubication {
+  width: 100px;
+  min-height: 60px;
+  padding: 10px;
+
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.search-bar {
+  width: 370px;
+  min-height: 40px;
+  background: #fff;
+  display: flex;
+  align-items: left;
+  border: 1px solid gray;
+  border-radius: 60px;
+  padding: 4px 6px;
+}
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 8px 10px;
+  font-size: 16px;
+  color: black;
+}
+.search-bar button img {
+  width: 25px;
+}
+.search-bar button {
+  border: 0;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: #cac7ff;
+}
+.search-bar button:hover {
+  cursor: pointer;
+}
+.local-weather button img {
+  width: 25px;
+}
+.local-weather button {
+  border: 0;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: #cac7ff;
+}
+.local-weather label {
+  color: gray;
+  display: flex;
+  padding: 0 6px;
+}
+.city {
+  border: none;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 10px;
+  text-align: left;
+  font-size: 26px;
+  font-weight: bold;
+}
+.current-weather-img {
+  display: left;
+  align-items: left;
+  justify-content: left;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+.p {
+  font-size: 16px;
+  color: rgb(59, 59, 86);
+  padding: 0;
+  align-items: left;
+  justify-content: left;
+  display: flex;
+  text-align: left;
+}
+.day-time,
+.day-clouds {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.days {
+  border-radius: 40px;
+  padding: 4px 6px;
+  margin: 40px 0px 25px;
+  transform: all 150ms ease-in-out;
+}
+.sunday,
+.monday,
+.tuesday,
+.wednesday,
+.thuesday {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
